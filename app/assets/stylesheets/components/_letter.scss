@@ -1,0 +1,28 @@
+.letters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25%;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-size: 32px;
+}
+
+.letter {
+  padding: 10px 20px;
+  margin: 25px;
+  background-color: black;
+  color: #719B76;
+  border-radius: 5px;
+
+  & p {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.playing {
+  border: solid 1px black;
+  background-color: #719B76;
+  color: black;
+}

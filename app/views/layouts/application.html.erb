@@ -14,5 +14,13 @@
     <%= javascript_include_tag 'application' %>
 
     <%= javascript_pack_tag 'application' %>
+    <script>
+
+      document.addEventListener('keydown', (event)=> {
+        const letter = document.querySelector(`.letter[data-key="${event.keyCode}"]`);
+        letter.classList.toggle("playing");
+      });
+
+    </script>
   </body>
 </html>

@@ -1,0 +1,31 @@
+body {
+  background-color: #719b76
+}
+
+.hello {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid 1px black;
+  padding: 32px 0;
+}
+
+.boutonplus {
+  font-size: 26px;
+  background-color: black;
+  border-radius: 8px;
+  padding: 5px 15px;
+  color: #719b76;
+  text-decoration: none;
+
+  &:hover {
+    color: black;
+    background-color: #719B76;
+    border: solid 1px black;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+
+}
+
+
